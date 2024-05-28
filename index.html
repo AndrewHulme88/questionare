@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Patient Questionnaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>New Patient Questionnaire</h1>
+  <form id="patient-form">
+    <section>
+      <h2>Personal Information</h2>
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name"><br><br>
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name"><br><br>
+      <label for="date-of-birth">Date of Birth:</label>
+      <input type="date" id="date-of-birth" name="date-of-birth"><br><br>
+      <label for="contact-number">Contact Number:</label>
+      <input type="tel" id="contact-number" name="contact-number"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+    </section>
+    <section>
+      <h2>Medical History</h2>
+      <label for="medical-conditions">Do you have any existing medical conditions?</label>
+      <textarea id="medical-conditions" name="medical-conditions"></textarea><br><br>
+      <label for="allergies">Do you have any allergies?</label>
+      <textarea id="allergies" name="allergies"></textarea><br><br>
+      <label for="medications">Are you currently taking any medications?</label>
+      <textarea id="medications" name="medications"></textarea><br><br>
+    </section>
+    <section>
+      <h2>Current Symptoms</h2>
+      <label for="symptoms">What symptoms are you currently experiencing?</label>
+      <textarea id="symptoms" name="symptoms"></textarea><br><br>
+    </section>
+    <input type="submit" value="Submit">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
